@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.file</title>
+</head>
+
+<body>
+    <h1>good morning </h1>
+    <p>Mental health awareness is important because it helps people understand that mental health is just as important
+        as physical health. When people are aware, they can recognize early signs of stress, anxiety, or depression and
+        seek help without fear or shame. Awareness also reduces stigma, encouraging open conversations and support from
+        family, friends, and society. By promoting mental health education, individuals learn healthy coping skills,
+        improve emotional well-being, and build resilience. Overall, mental health awareness creates a more caring and
+        understanding society where everyone feels supported and valued.</p>
+    <ul>
+        <li>k1</li>
+        <li>k2</li>
+        <li>k3</li>
+    </ul>
+    <hr>
+    <video src="VID-20191229-WA0010.mp4" controls width="400px" loop></video>
+    <hr>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gAxw7pgXmG4?si=Oa5IMDESUBzXbhh-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br><br>
+    <header>
+<nav>
+<a href="#">Home</a> |
+<a href="#">Men</a> |
+<a href="#">Women</a> |
+<a href="#">Contact</a>
+</nav>
+</header>
+<br><br>
+<table border="blue">
+    <caption>student info</caption>
+    <tr>
+        <th>name</th>
+        <th>roll no</th>
+    </tr>
+    <tr>
+        <td>nandini</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>rudra</td>
+        <td>26</td>
+    </tr>
+</table>
+    <br><br>
+<table border="blue">
+    <caption>colspan and rowspan</caption>
+    <tr>
+        <td>1</td>
+        <td colspan="2"> 2563</td>
+        
+
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>5</td>
+        <td rowspan="2">3456</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>8</td>
+        
+    </tr>
+
+</table> <br> <br><br><br>
+
+<table border="black">
+    <tr>
+        <td rowspan="2" colspan="2">78</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td></td>
+    
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>9</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>1</td>
+    </tr>
+</table>
+    
+</body>
+<marquee behavior="scroll" direction="left">
+    <img src="https://tse2.mm.bing.net/th/id/OIP.7y30PcqF6CKnwFy2ueRwewHaEK?pid=Api&P=0&h=180" width="300">
+</marquee>
+<head>
+  <title>Image Slider</title>
+  <style>
+    .slider {
+      width: 500px;
+      height: 300px;
+      overflow: hidden;
+      margin: auto;
+    }
+    .slides img {
+      width: 100%;
+      display: none;
+    }
+    .slides img.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<div class="slider">
+  <div class="slides">
+    <img src="https://cdn.pixabay.com/photo/2020/05/17/04/22/pizza-5179939_1280.jpg" class="active">
+    <img src="https://cdn.pixabay.com/photo/2024/04/18/10/41/ai-generated-8704060_1280.jpg">
+    <img src="http://clipartix.com/wp-content/uploads/2017/07/Pizza-clip-art-2.png">
+  </div>
+</div>
+
+<script>
+  let index = 0;
+  const images = document.querySelectorAll(".slides img");
+
+  setInterval(() => {
+    images[index].classList.remove("active");
+    index = (index + 1) % images.length;
+    images[index].classList.add("active");
+  }, 2000);
+</script>
+<marquee behavior="scroll" direction="left">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/040/174/391/small_2x/ai-generated-pictures-of-delicious-and-beautiful-drinks-photo.jpg" width="300">
+</marquee>
+
+</body>
+
+</html>

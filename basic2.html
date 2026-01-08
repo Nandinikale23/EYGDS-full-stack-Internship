@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        background-color: darksalmon;
+    }
+    .h1{
+        border: solid black;
+        width: 100px;
+        height: 100px;
+        align-content: center ;
+        text-align: center;
+        align-items: center;
+    }
+    h1{
+        color: red;
+        background-color: aqua;
+    }
+    .high
+    {
+        color: green;
+    }
+    .low{
+        color: blueviolet;
+    }
+    .high div{
+        color: black;
+    }
+    .low:hover{
+        color: aqua;
+    }
+    .box1{
+        align-content: center;
+        text-align: center;
+        border:1px solid black;
+        height: 200px;
+        width: 200px;
+    }
+    .box1:hover{
+        border-radius: 200px;
+        transition: 5s;
+        color: blue;
+        background-color: aquamarine;
+        transform: rotate(180deg);
+        
+    }
+    .box2{
+        align-content: center;
+        text-align: center;
+        border: 1px solid black;
+        height: 200px;
+        width: 200px;
+        transform: translate(180px);
+
+    }
+    .box2:hover{
+        border-radius: 200px;
+        transition: 5s;
+        color: blue;
+        background-color: aquamarine;
+        transform: skew(50deg,100deg);
+        
+
+    }
+</style>
+</head>
+<body>
+    <h1>main heading</h1>
+    <p class="high"> 
+        this is a para
+    
+        <div class="low">
+            <p>hellow para</p> 
+        </div>
+    </p>
+    
+    <p>use this para</p>
+    <div class="box1">box1</div>
+    <div class="box2">box2</div>
+</body>
+</html>

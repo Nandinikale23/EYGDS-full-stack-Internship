@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Slider</title>
+  <style>
+    .slider {
+      width: 500px;
+      height: 300px;
+      overflow: hidden;
+      margin: auto;
+    }
+    .slides img {
+      width: 100%;
+      display: none;
+    }
+    .slides img.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<div class="slider">
+  <div class="slides">
+    <img src="https://cdn.pixabay.com/photo/2020/05/17/04/22/pizza-5179939_1280.jpg" class="active">
+    <img src="https://cdn.pixabay.com/photo/2024/04/18/10/41/ai-generated-8704060_1280.jpg">
+    <img src="http://clipartix.com/wp-content/uploads/2017/07/Pizza-clip-art-2.png">
+  </div>
+</div>
+
+<script>
+  let index = 0;
+  const images = document.querySelectorAll(".slides img");
+
+  setInterval(() => {
+    images[index].classList.remove("active");
+    index = (index + 1) % images.length;
+    images[index].classList.add("active");
+  }, 2000);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var fruits=["apple","banana","mango","orange","grap"];
+    fruits.push("kivi");
+    console.log(fruits);
+    console.log(fruits[1]);
+    console.log(fruits);
+
+
+    const user=
+    {
+        name:"nandini",
+        age:27,
+        city:"pune"
+
+
+    }
+
+    const {name,...poo} = user;
+    console.log(name.poo);
+    
+// spread 
+
+let a = [1, 2, 3];
+let b = [...a];
+
+b.push(4);
+console.log(a); // [1,2,3] ✅
+
+// Merge Two Arrays 
+
+let arr1 = [1, 2];
+let arr2 = [3, 4];
+
+let result = [...arr1, ...arr2];
+console.log(result); // [1,2,3,4]
+
+//  Add New Element in Array 
+
+let numbers = [10, 20];
+let newArr = [...numbers, 30];
+
+console.log(newArr); // [10,20,30]
+
+
+//Spread with Object (Copy Object)
+let student = { name: "Nandini", age: 20 };
+let copyStudent = { ...student };
+
+copyStudent.age = 21;
+console.log(student.age); // 20
+
+    
+   
+</script>
+</body>
+</html>
