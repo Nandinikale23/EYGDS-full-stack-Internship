@@ -21,7 +21,7 @@ It showcases my learning and hands-on practice in frontend, backend, and databas
 - Backend fundamentals
 - Database concepts
 - Introduction to AI concepts
-
+- python-django 
 ---
 
 ## 🤖 AI Learning (Introductory Level)
