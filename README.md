@@ -24,6 +24,16 @@ It showcases my learning and hands-on practice in frontend, backend, and databas
 
 ---
 
+## 🤖 AI Learning (Introductory Level)
+During the internship, I was introduced to basic AI concepts such as:
+- Understanding what AI and Machine Learning are
+- Simple logic-based problem solving
+- Data handling basics using Python
+- Awareness of real-world AI applications
+
+This learning helped me understand how backend systems and data are important for AI-based applications.
+
+---
 
 ## 💡 What I Learned
 - Programming fundamentals and logic building
@@ -50,4 +60,4 @@ It showcases my learning and hands-on practice in frontend, backend, and databas
 
 ## 🙋‍♀️ About Me
 I am an aspiring Python Backend Developer with internship experience in full stack development.
-I am actively preparing for backend roles and college placements.
+I am actively preparing for backend roles.
